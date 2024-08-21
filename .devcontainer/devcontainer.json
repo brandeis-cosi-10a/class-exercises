@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/python:3",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"zeitnergmbh.auto-git",
+				"-GitHub.copilot",
+				"formulahendry.code-runner"
+			]
+		}
+	},
+	"postCreateCommand": "pip install --user -r requirements.txt"
+}
