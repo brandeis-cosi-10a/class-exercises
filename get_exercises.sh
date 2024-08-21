@@ -1,3 +1,3 @@
 #!/bin/bash
-git fetch upstream
-git merge upstream/main --strategy-option theirs -m "Merge new exercises"
+git fetch origin
+git merge origin/main --strategy-option theirs -m "Merge new exercises"
