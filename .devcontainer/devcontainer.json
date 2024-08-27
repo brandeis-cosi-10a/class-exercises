@@ -5,7 +5,8 @@
 			"extensions": [
 				"ms-python.python",
 				"-GitHub.copilot",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"ms-vsliveshare.vsliveshare"
 			]
 		}
 	},
