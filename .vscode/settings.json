@@ -27,6 +27,6 @@
         "__init__.py": true
     },
     "github.copilot.editor.enableAutoCompletions": false,
-    "testing.automaticallyOpenPeekView": "never"
+    "testing.automaticallyOpenPeekView": "never",
+    "code-runner.runInTerminal": true
 }
-
