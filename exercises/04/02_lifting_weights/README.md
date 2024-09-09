@@ -6,10 +6,10 @@ Write a function in [main.py](main.py) that takes 2 parameters: an object name, 
 
 The function should print out whether different animals could lift that object or not.
 
-Ants can lift 250 mg (0.25 grams)
-Swallows can lift 28 grams
-Mice can lift 120 grams
-Elephants can lift 6,000 kg (6,000,000 grams)
+* Ants can lift 250 mg (0.25 grams)
+* Swallows can lift 28 grams
+* Mice can lift 120 grams
+* Elephants can lift 6,000 kg (6,000,000 grams)
 
 ## Part 2
 
