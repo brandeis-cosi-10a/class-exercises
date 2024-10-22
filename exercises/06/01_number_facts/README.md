@@ -3,7 +3,7 @@
 Write your code in [main.py](main.py)
 ## Part 1
 
-Write a `for` loop that iterates over at the numbers 60-70 (inclusive), and prints out 2 facts about each number:
+Write a `for` loop that iterates over the numbers 60-70 (inclusive), and prints out 2 facts about each number:
 1. The number divided by 3
 1. Whether the number is a perfect square (Hint: `8 * 8 = 64`)
 

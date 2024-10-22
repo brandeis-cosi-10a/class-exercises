@@ -5,7 +5,6 @@ def test_add():
     assert add(1, 1) == 2
     assert add(3, 4) == 6
 
-
 def count_letters(word):
     # This function returns the number of letters in a string. 
     # Numbers, spaces, and punctuation don't count toward the total.

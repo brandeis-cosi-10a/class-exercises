@@ -18,4 +18,5 @@ def c():
 def d():
     print("d")
 
+
 a()

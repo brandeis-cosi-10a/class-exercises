@@ -10,7 +10,7 @@ Write a function, `is_anagram(s1, s2)` that returns `True` if `s1` and `s2` are 
 You can use string's `count()` function. E.g. this code prints `2`:
 ```
 val = "hello"
-print(hello.count("l"))
+print(val.count("l"))
 ```
 
 You should not use `sort()` for this problem.
