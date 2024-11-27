@@ -4,9 +4,9 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"zeitnergmbh.auto-git",
 				"-GitHub.copilot",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"ms-vsliveshare.vsliveshare"
 			]
 		}
 	},
