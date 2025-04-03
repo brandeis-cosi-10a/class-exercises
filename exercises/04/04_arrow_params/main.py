@@ -28,3 +28,6 @@ def print_head_row(shaft_length, head_width, fill, hollow):
     else:
         print(get_fill(fill, hollow) * (head_width - 1)+ fill) 
 
+arrow(10, 3, "$", True)
+arrow(head_height=5)
+arrow(head_height=7, hollow=True)
