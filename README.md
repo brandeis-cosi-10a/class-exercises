@@ -1,94 +1,10 @@
-# Help
+# 10a Exercises and Sandboxes
 
-<details>
-  <summary><b>How to complete assignments</b></summary>
+This project contains exercises that we may use in class during the semester.
+To get newly released exercises, run the command "git pull" in the terminal
+(the text area at the bottom of the screen).
 
-# Finding assignments
-
-Assignments are contained in the [assignments](assignments) directory. There is one directory per assignment. Each assignment has specific instructions in the `README.md` file in the assignment directory.
-
-For most assignments, you will be editing the file named `main.py` in the assignment directory. The instructions will explicitly note if other files need to be edited.
-
-# Submitting
-
-Your code is automatically saved & uploaded when you edit it. You don't need to do anything to submit. The most recent version of your code (from before the problem set deadline) will be graded.
-
-# Editing and running code
-
-Click on `main.py` in an assignment directory to open it. You can test your code manually by clicking the `Run` button at the top left of the text editor.
-
-<img src=".images/code_play.png" width="400" />
-
-</details>
-
-<details>
-  <summary><b>Testing your code</b></summary>
-
-# Testing
-
-You can always test your code manually by clicking on the `Run` button at the top right of the editor when you have a Python file open. This will run your program, and show its output in the terminal at the bottom.
-
-Most assignments also come with automated tests. To run them, click on the `Testing` icon on the left side of VSCode, then click the "play" button on the test or tests you want to run.
-
-<img src=".images/running_tests.png" width="300" />
-
-**If you submit with any automated tests failing, you will not receive full credit for the assignment.**  Part of the challenge of the assignments is to make your code generate the output the tests are expecting. If your tests are failing - even if the failure seems trivial to you - you should try to fix them before submiting. Get help from the course staff if you feel stuck!
-
-## Input / output tests
-
-The early assignments in this class use input/output tests. These send input to your program, and ensure that your program produces the expected output. The actual output must match the expected output (almost) exactly - only blank lines are ignored.
-
-### Understanding input/output failures
-
-When you run input/output tests, if they fail, a side-by-side difference of the expected and actual output are automatically shown. If you have many failures, you may want to run a single test at a time.
-
-
-<img src=".images/iotest_diff.png" width="800">
-
-If you explore the "testcases" directories under each assignment, you can see each test case. They include:
-1. `input.txt`: The input sent to your program
-1. `expected.txt`: The expected output
-1. (after you run at least once) `actual.txt`: The actual output your program produced the last time it ran
-
-<img src=".images/iotest_find_files.png" width="800">
-
-</details>
-
-<details>
-  <summary><b>Debugging your code</b></summary>
-
-## Error messages
-
-**Actually READ your error messages!** 
-
-While certain types of mistakes will produce messages that seem completely unrelated to the actual error, 
-most of the time the error message tells you what is wrong, and points out the offending line.
-
-## Debugging via prints
-
-Adding print statements to your code is an effective (if inelegant) way to understand why your code isn't behaving the way you expect it to.
-
-Try:
-
-* Printing hardcoded messages at certain points in the program, to see when (or if) your program reaches those points.
-* Printing out the value of variables just before a conditional, to see why the conditional isn't working the way you expect
-* Printing out the value of variables just before a crash, to see why your program is dying
-
-## Debugger
-
-Debuggers are tools that allow you to advance through a program, step by step, and examine the state of the
-program at each step. They are very powerful tools.
-
-VSCode has a Python debugger built in!
-
-The typical flow is:
-1. Set a "breakpoint" - a breakpoint is a place in the program where the debugger will pause when it is reached.
-1. Launch the debugger
-1. Once code execution reaches the breakpoint, examine the state of the program, 
-or continue stepping through line by line.
-
-<img src=".images/debugger_launch.png" width="800" />
-
-<img src=".images/debugger_tour.png" width="800">
-
-</details>
+You can also create your own Python files here to experiment. Just double-click
+in the file browser to the left, type in a file name that ends with ".py" (e.g. 
+`experiment.py`), and hit enter. You'll get a new, blank file where you can type
+Python code, and run it with the "play" button at the top right of the text window.
