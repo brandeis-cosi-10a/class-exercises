@@ -44,8 +44,3 @@ print()
 chorus()
 
 
-
-def sayPassword(code):
-    print("The password is:", code)
-
-sayPassword(123, 456)

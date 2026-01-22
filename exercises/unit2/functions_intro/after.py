@@ -1,19 +1,26 @@
+
+
 def chorus():
     print("We all live in a yellow submarine")
     print("Yellow submarine, yellow submarine")
     print("We all live in a yellow submarine")
     print("Yellow submarine, yellow submarine")
 
+def verse1():
+    print("In the town where I was born")
+    print("Lived a man who sailed to sea")
+    print("And he told us of his life")
+    print("In the land of submarines")
 
-print("In the town where I was born")
-print("Lived a man who sailed to sea")
-print("And he told us of his life")
-print("In the land of submarines")
+def verse2():
+    print("So, we sailed on to the sun")
+    print("'Til we found a sea of green")
+    print("And we lived beneath the waves")
+    print("In our yellow submarine")
+
+verse1()
 print()
-print("So, we sailed on to the sun")
-print("'Til we found a sea of green")
-print("And we lived beneath the waves")
-print("In our yellow submarine")
+verse2()
 print()
 
 chorus()
